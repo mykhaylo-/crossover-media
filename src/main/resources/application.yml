@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    database: H2
+    show-sql: true
+  datasource:
+    url: jdbc:h2:file:./dummydb/restaurants;DB_CLOSE_DELAY=-1;MODE=MYSQL;MV_STORE=FALSE;MVCC=FALSE
+    
